@@ -1,79 +1,12 @@
-
-
-
 <!DOCTYPE html>
-  
-
 
 <head>
+  <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
+  <meta charset="utf-8">
 
-  <style>
-
-      body {
-        padding-top: 40 px;
-        padding-bottom: 40 px;
-      }
-  </style>
-
- 
-  <style>
-    
-    .banner-image {
-      width: 128px;
-      height: 127px;
-      object-fit: cover;
-      border-radius: 128px;
-     
-    }
-
-    .banner {
-      display: flex;
-      justify-content: center;
-    }
-    .thumbnail {
-      width: 48px;
-      height: 48px;
-      border-radius: 48px;
-      object-fit: cover;
-    }
-
-    body {
-      background-color:#c490d1;
-    }
-    .name {
-      color: #b8336a;
-      display: flex;
-      justify-content: center;
-    }
-
-    .social-icons a {
-      color:#85f1ff; ##e5fcff;
-      display: flex;
-      justify-content: space-around;
-    }
-    .link {
-      background-color:#acacde; 
-      display: flex;
-  align-items: center;
-    }
-    .link a {
-      color: #abdafc;
-      text-decoration: none;
-      text-align: center;
-      flex-grow: 1;
-    }
-    .items {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      max-width: 640px;
-    }
-  * {
-    border: thin red solid;
-  }
-  </style>
-  
-  
+  <!-- Make it responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles.css" />
 </head>
   
 <body>
@@ -87,21 +20,31 @@
   </div>
   
   <div class="social-icons">
-    <a href="https://github.com/nancy-techprep" target="_blank">
-      GitHub
-    </a>
+    <div>
+      <a href="https://github.com/nancy-techprep" target="_blank">
+        GitHub
+      </a>  
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/nancyjcamacho/" target="_blank">
+        LinkedIn
+      </a>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/nopalitita/" target="_blank">
+        Instagram
+      </a>
+    </div>
+
+  </div>
+
+  <div class="link">
+    <img
+      src="/thumbnails/how_logo.jpeg" class="thumbnail">
   
-    <a href="https://www.linkedin.com/in/nancyjcamacho/" target="_blank">
-      LinkedIn
-    </a>
-  
-    <a href="https://www.instagram.com/nopalitita/" target="_blank">
-      Instagram
-    </a>
-  
-    <a href="https://linktr.ee/how_empowering" target="_blank">
-      Donate to Housing Opportunities for Women
-    </a>
+      <a href="https://linktr.ee/how_empowering" target="_blank">
+        Donate to Housing Opportunities for Women
+      </a>
   </div>
   
   <div class="link">
