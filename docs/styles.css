@@ -1,6 +1,6 @@
 
 
-.hello {
+.background {
   padding-top: 40 px;
   padding-bottom: 40 px;
   background: linear-gradient(270deg, #c490d1, #dc8ec7, #f08dba, #ff8fa9, #ff9498, #ff9d87, #ffa877, #ffb56b);
@@ -76,6 +76,8 @@ body {
   color: #b8336a;
   display: flex;
   justify-content: center;
+  font-size: 50px;
+  font-family: "Monaco", monospace
 }
 
 .social-icons {
@@ -97,6 +99,7 @@ body {
   text-decoration: none;
   text-align: center;
   flex-grow: 1;
+  font-family: "Monaco", monospace
 }
 .items {
   display: flex;
